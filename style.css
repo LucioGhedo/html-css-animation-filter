@@ -8,6 +8,9 @@
     background-color: red;
     transition: all 2s;
 }
+.ex-1-square:not(:hover) {
+    transition: all 2s;
+}
 /* fine hover 1 */
 
 .ex-2-square {
