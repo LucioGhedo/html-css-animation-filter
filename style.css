@@ -48,6 +48,17 @@
     height: 100px;
     background: red;
 }
+/* hover 3 disappear */
+.ex-4-square:hover{
+    background-color: inherit;
+    transition: all 1s;
+}
+.ex-4-square:not(:hover) {
+    background-color: red;
+    transition: all 1s;
+}
+/* fine hover 3 disappear */
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
