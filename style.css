@@ -9,6 +9,7 @@
     transition: all 2s;
 }
 /* fine hover 1 */
+
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -24,11 +25,24 @@
     transition: all 2s;
 }
 /* fine click 1 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* hover 2 cerchio */
+.ex-3-square:hover {
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.ex-3-square:not(:hover) {
+    border-radius: 0%;
+    transition-delay: 1s;
+    transition: all 1s;
+}
+/* fine hover 2 cerchio */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
