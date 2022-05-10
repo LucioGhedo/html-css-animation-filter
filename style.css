@@ -247,3 +247,59 @@
 }
 /* fine ex 12 */
 
+/* ex 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: button2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes button2 {
+    0% {
+        top: -10%;
+        left: 10%;
+    }
+    25% {
+        top: -10%;
+        left: 85%;
+    }
+    50% {
+        top: 90%;
+        left: 85%;
+    }
+    75% {
+        top: 90%;
+        left: -10%;
+    }
+    85% {
+        top: -10%;
+        left: -10%;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: button2b;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes button2b {
+    0% {
+        bottom: -10%;
+        right: 20%;
+    }
+    25% {
+        bottom: -10%;
+        right: 75%;
+    }
+    50% {
+        bottom: 90%;
+        right: 75%;
+    }
+    75% {
+        bottom: 90%;
+        right: -10%;
+    }
+    85% {
+        bottom: -10%;
+        right: -10%;
+    }
+}
+/* fine ex 13 :) */
