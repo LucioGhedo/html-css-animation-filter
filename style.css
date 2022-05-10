@@ -211,3 +211,39 @@
     width: 60px;
     height: 20px;
 }
+
+/* ex 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: button1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes button1 {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 69%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: button1b;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes button1b {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 69%;
+    }
+    100% {
+        right: 20%;
+    }
+}
+/* fine ex 12 */
+
